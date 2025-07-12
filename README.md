@@ -88,7 +88,7 @@ Welcome to **AI Waheeb Pro**, an advanced Integrated Development Environment (ID
     ```bash
     python main.py
     ```
-    *(Or `main.py` or your main entry file's name.)*
+   
 
 ---
 ## 📞 Contact
