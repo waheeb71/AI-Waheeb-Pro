@@ -1,0 +1,161 @@
+2025-07-12 23:12:20,489 - __main__ - WARNING - Application icon not found at: d:\س\ai_code_editor\ai_code_editor\assets\icon.png
+2025-07-12 23:12:20,497 - core.app_config - INFO - JSON configuration loaded from: C:/Users/ALSKHRA PC/AppData/Roaming/AI Waheeb Pro Team/AI Waheeb Pro Enhanced\AI Waheeb Pro Enhanced\config.json
+2025-07-12 23:12:20,497 - core.app_config - INFO - Configuration initialized. App data directory: C:/Users/ALSKHRA PC/AppData/Roaming/AI Waheeb Pro Team/AI Waheeb Pro Enhanced\AI Waheeb Pro Enhanced
+2025-07-12 23:12:20,499 - core.unified_file_manager - INFO - Enhanced File Manager initialized
+2025-07-12 23:12:20,501 - core.json_ai_processor - INFO - JSONAIProcessor: Initializing Gemini model with config: {'temperature': 0.7, 'top_p': 0.95, 'top_k': 40, 'max_output_tokens': 2048}
+2025-07-12 23:12:20,504 - core.json_ai_processor - INFO - JSON AI Processor connected successfully
+2025-07-12 23:12:20,506 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Initializing main window.
+2025-07-12 23:12:20,507 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Window centered.
+2025-07-12 23:12:20,509 - core.voice_service - INFO - Voice service initialized
+2025-07-12 23:12:20,537 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Recent files menu updated.
+2025-07-12 23:12:20,539 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Menu bar created.
+2025-07-12 23:12:20,580 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Toolbars created.
+2025-07-12 23:12:22,331 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Dropdown panel created.
+2025-07-12 23:12:22,334 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Status bar created.
+2025-07-12 23:12:22,344 - ui.widgets.file_tree - INFO - VS Code-style file tree initialized
+2025-07-12 23:12:22,344 - ui.widgets.file_tree - INFO - VSCodeFileTree: Connected to UnifiedFileManager signals.
+2025-07-12 23:12:22,350 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: File tree dock created.
+2025-07-12 23:12:22,377 - ui.widgets.ai_assistant - INFO - AI Assistant widget initialized
+2025-07-12 23:12:22,442 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: AI Assistant dock created.
+2025-07-12 23:12:22,460 - ui.widgets.voice_control - INFO - VoiceControlWidget: Setting up connections for voice service.
+2025-07-12 23:12:22,461 - ui.widgets.voice_control - INFO - VoiceControlWidget: Voice service connections established.
+2025-07-12 23:12:22,462 - ui.widgets.voice_control - INFO - VoiceControlWidget: Connected to gemini_service.error_occurred.
+2025-07-12 23:12:22,464 - ui.widgets.voice_control - INFO - VoiceControlWidget: Voice control widget initialized.
+2025-07-12 23:12:22,515 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Voice control dock created.
+2025-07-12 23:12:22,545 - ui.widgets.output_panel - INFO - Terminal state changed to: جاري البدء
+2025-07-12 23:12:22,559 - ui.widgets.output_panel - INFO - Terminal state changed to: نشط
+2025-07-12 23:12:22,563 - ui.widgets.output_panel - INFO - Output panel initialized
+2025-07-12 23:12:22,566 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Output panel dock created.
+2025-07-12 23:12:22,568 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Docks tabified.
+2025-07-12 23:12:22,575 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Tab changed to index: 0
+2025-07-12 23:12:22,576 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Current file set to: None
+2025-07-12 23:12:22,577 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Welcome tab created.
+2025-07-12 23:12:22,577 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Central widget and tab widget created.
+2025-07-12 23:12:22,578 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Setting up all service connections.
+2025-07-12 23:12:22,578 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: File manager connections established.
+2025-07-12 23:12:22,579 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Voice service connections established.
+2025-07-12 23:12:22,580 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Gemini service connections established.
+2025-07-12 23:12:22,580 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: File tree connections established.
+2025-07-12 23:12:22,581 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: AI Assistant connections established.
+2025-07-12 23:12:22,581 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: VoiceControlWidget command_ready connected to gemini_service.process_general_query.
+2025-07-12 23:12:22,582 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: All connections setup complete.
+2025-07-12 23:12:22,583 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Restoring window state.
+2025-07-12 23:12:22,685 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Window restored to maximized state.
+2025-07-12 23:12:22,686 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Starting services.
+2025-07-12 23:12:22,687 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Connection status changed to: True
+2025-07-12 23:12:22,688 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Services started.
+2025-07-12 23:12:22,688 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Applying theme.
+2025-07-12 23:12:22,745 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Theme applied.
+2025-07-12 23:12:22,746 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Loading last opened folder: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:12:22,747 - core.unified_file_manager - INFO - UnifiedFileManager: File watcher started for paths: ['C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor']
+2025-07-12 23:12:22,747 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Received folder opened signal for: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:12:22,748 - core.unified_file_manager - INFO - FileWatcherThread: Starting initial scan...
+2025-07-12 23:12:22,750 - ui.widgets.file_tree - INFO - Root path set to: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:12:22,756 - ui.widgets.output_panel - INFO - Terminal working directory set to: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:12:22,756 - core.unified_file_manager - INFO - EnhancedFileManager: تم فتح المجلد: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:12:22,756 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Main window initialized successfully.
+2025-07-12 23:12:22,757 - __main__ - INFO - Enhanced AI Waheeb Pro Desktop Application initialized successfully.
+2025-07-12 23:12:22,759 - core.unified_file_manager - INFO - FileWatcherThread: Initial scan complete. Starting periodic checks.
+2025-07-12 23:12:22,841 - ui.widgets.file_tree - INFO - VSCodeFileTree: External file added: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:12:22,844 - ui.widgets.file_tree - WARNING - VSCodeFileTree: Parent item for 'C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor' not found or not expanded, forcing full refresh.
+2025-07-12 23:12:22,844 - core.unified_file_manager - INFO - UnifiedFileManager: File added externally: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:12:22,845 - ui.widgets.file_tree - INFO - VSCodeFileTree: External file added: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\.backups
+2025-07-12 23:12:22,847 - ui.widgets.file_tree - WARNING - VSCodeFileTree: Parent item for 'C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\.backups' not found or not expanded, forcing full refresh.
+2025-07-12 23:12:22,848 - core.unified_file_manager - INFO - UnifiedFileManager: File added externally: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\.backups
+2025-07-12 23:13:29,276 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Opening file: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:13:29,282 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Received file opened signal for: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:13:29,283 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Adding editor tab for: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:13:29,307 - ui.widgets.code_editor - INFO - Code editor initialized
+2025-07-12 23:13:29,331 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Tab changed to index: 1
+2025-07-12 23:13:29,332 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Current file set to: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:13:29,333 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Editor tab added for C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py at index 1.
+2025-07-12 23:13:29,335 - core.unified_file_manager - INFO - File opened: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:13:29,336 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Switched to already open file: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:14:15,794 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Handling close event.
+2025-07-12 23:14:15,795 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Saving window state.
+2025-07-12 23:16:03,001 - __main__ - WARNING - Application icon not found at: d:\س\ai_code_editor\ai_code_editor\assets\icon.png
+2025-07-12 23:16:03,007 - core.app_config - INFO - JSON configuration loaded from: C:/Users/ALSKHRA PC/AppData/Roaming/AI Waheeb Pro Team/AI Waheeb Pro Enhanced\AI Waheeb Pro Enhanced\config.json
+2025-07-12 23:16:03,008 - core.app_config - INFO - Configuration initialized. App data directory: C:/Users/ALSKHRA PC/AppData/Roaming/AI Waheeb Pro Team/AI Waheeb Pro Enhanced\AI Waheeb Pro Enhanced
+2025-07-12 23:16:03,010 - core.unified_file_manager - INFO - Enhanced File Manager initialized
+2025-07-12 23:16:03,011 - core.json_ai_processor - INFO - JSONAIProcessor: Initializing Gemini model with config: {'temperature': 0.7, 'top_p': 0.95, 'top_k': 40, 'max_output_tokens': 2048}
+2025-07-12 23:16:03,013 - core.json_ai_processor - INFO - JSON AI Processor connected successfully
+2025-07-12 23:16:03,015 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Initializing main window.
+2025-07-12 23:16:03,016 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Window centered.
+2025-07-12 23:16:03,017 - core.voice_service - INFO - Voice service initialized
+2025-07-12 23:16:03,041 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Recent files menu updated.
+2025-07-12 23:16:03,042 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Menu bar created.
+2025-07-12 23:16:03,099 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Toolbars created.
+2025-07-12 23:16:03,185 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Dropdown panel created.
+2025-07-12 23:16:03,187 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Status bar created.
+2025-07-12 23:16:03,193 - ui.widgets.file_tree - INFO - VS Code-style file tree initialized
+2025-07-12 23:16:03,194 - ui.widgets.file_tree - INFO - VSCodeFileTree: Connected to UnifiedFileManager signals.
+2025-07-12 23:16:03,197 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: File tree dock created.
+2025-07-12 23:16:03,214 - ui.widgets.ai_assistant - INFO - AI Assistant widget initialized
+2025-07-12 23:16:03,249 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: AI Assistant dock created.
+2025-07-12 23:16:03,258 - ui.widgets.voice_control - INFO - VoiceControlWidget: Setting up connections for voice service.
+2025-07-12 23:16:03,259 - ui.widgets.voice_control - INFO - VoiceControlWidget: Voice service connections established.
+2025-07-12 23:16:03,259 - ui.widgets.voice_control - INFO - VoiceControlWidget: Connected to gemini_service.error_occurred.
+2025-07-12 23:16:03,260 - ui.widgets.voice_control - INFO - VoiceControlWidget: Voice control widget initialized.
+2025-07-12 23:16:03,278 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Voice control dock created.
+2025-07-12 23:16:03,294 - ui.widgets.output_panel - INFO - Terminal state changed to: جاري البدء
+2025-07-12 23:16:03,308 - ui.widgets.output_panel - INFO - Terminal state changed to: نشط
+2025-07-12 23:16:03,311 - ui.widgets.output_panel - INFO - Output panel initialized
+2025-07-12 23:16:03,317 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Output panel dock created.
+2025-07-12 23:16:03,319 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Docks tabified.
+2025-07-12 23:16:03,326 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Tab changed to index: 0
+2025-07-12 23:16:03,327 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Current file set to: None
+2025-07-12 23:16:03,328 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Welcome tab created.
+2025-07-12 23:16:03,329 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Central widget and tab widget created.
+2025-07-12 23:16:03,330 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Setting up all service connections.
+2025-07-12 23:16:03,330 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: File manager connections established.
+2025-07-12 23:16:03,331 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Voice service connections established.
+2025-07-12 23:16:03,332 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Gemini service connections established.
+2025-07-12 23:16:03,332 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: File tree connections established.
+2025-07-12 23:16:03,333 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: AI Assistant connections established.
+2025-07-12 23:16:03,333 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: VoiceControlWidget command_ready connected to gemini_service.process_general_query.
+2025-07-12 23:16:03,334 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: All connections setup complete.
+2025-07-12 23:16:03,335 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Restoring window state.
+2025-07-12 23:16:03,514 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Window restored to maximized state.
+2025-07-12 23:16:03,515 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Starting services.
+2025-07-12 23:16:03,516 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Connection status changed to: True
+2025-07-12 23:16:03,518 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Services started.
+2025-07-12 23:16:03,519 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Applying theme.
+2025-07-12 23:16:03,619 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Theme applied.
+2025-07-12 23:16:03,620 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Loading last opened folder: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:16:03,622 - core.unified_file_manager - INFO - UnifiedFileManager: File watcher started for paths: ['C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor']
+2025-07-12 23:16:03,622 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Received folder opened signal for: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:16:03,623 - core.unified_file_manager - INFO - FileWatcherThread: Starting initial scan...
+2025-07-12 23:16:03,625 - ui.widgets.file_tree - INFO - Root path set to: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:16:03,631 - ui.widgets.output_panel - INFO - Terminal working directory set to: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:16:03,631 - core.unified_file_manager - INFO - EnhancedFileManager: تم فتح المجلد: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:16:03,632 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Main window initialized successfully.
+2025-07-12 23:16:03,633 - __main__ - INFO - Enhanced AI Waheeb Pro Desktop Application initialized successfully.
+2025-07-12 23:16:03,635 - core.unified_file_manager - INFO - FileWatcherThread: Initial scan complete. Starting periodic checks.
+2025-07-12 23:16:03,758 - ui.widgets.file_tree - INFO - VSCodeFileTree: External file added: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\.backups
+2025-07-12 23:16:03,761 - ui.widgets.file_tree - WARNING - VSCodeFileTree: Parent item for 'C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\.backups' not found or not expanded, forcing full refresh.
+2025-07-12 23:16:03,762 - core.unified_file_manager - INFO - UnifiedFileManager: File added externally: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\.backups
+2025-07-12 23:16:03,763 - ui.widgets.file_tree - INFO - VSCodeFileTree: External file added: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:16:03,765 - ui.widgets.file_tree - WARNING - VSCodeFileTree: Parent item for 'C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor' not found or not expanded, forcing full refresh.
+2025-07-12 23:16:03,766 - core.unified_file_manager - INFO - UnifiedFileManager: File added externally: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor
+2025-07-12 23:16:05,022 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Opening file: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:16:05,026 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Received file opened signal for: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:16:05,027 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Adding editor tab for: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:16:05,051 - ui.widgets.code_editor - INFO - Code editor initialized
+2025-07-12 23:16:05,081 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Tab changed to index: 1
+2025-07-12 23:16:05,082 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Current file set to: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:16:05,084 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Editor tab added for C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py at index 1.
+2025-07-12 23:16:05,085 - core.unified_file_manager - INFO - File opened: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:16:05,086 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Switched to already open file: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\simple_calculator.py
+2025-07-12 23:16:05,938 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Opening file: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\app.py
+2025-07-12 23:16:05,945 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Received file opened signal for: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\app.py
+2025-07-12 23:16:05,946 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Adding editor tab for: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\app.py
+2025-07-12 23:16:05,952 - ui.widgets.code_editor - INFO - Code editor initialized
+2025-07-12 23:16:05,968 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Tab changed to index: 2
+2025-07-12 23:16:05,969 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Current file set to: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\app.py
+2025-07-12 23:16:05,971 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Editor tab added for C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\app.py at index 2.
+2025-07-12 23:16:05,972 - core.unified_file_manager - INFO - File opened: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\app.py
+2025-07-12 23:16:05,973 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Switched to already open file: C:/Users/ALSKHRA PC/Desktop/CyberLang/cyber/processor\app.py
+2025-07-12 23:16:54,970 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Showing settings dialog.
+2025-07-12 23:17:00,513 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Showing about dialog.
+2025-07-12 23:17:06,719 - ui.enhanced_main_window_improved - INFO - EnhancedMainWindow: Showing settings dialog.
+2025-07-12 23:17:53,777 - ui.widgets.output_panel - INFO - Terminal state changed to: غير نشط

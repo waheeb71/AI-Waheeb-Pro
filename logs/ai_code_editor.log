@@ -1,0 +1,42 @@
+2025-07-09 23:17:52,302 - core.app_config - INFO - Configuration initialized. App data directory: C:/Users/ALSKHRA PC/AppData/Roaming/AI Code Editor Pro Team/AI Code Editor Pro\AI Waheeb Pro
+2025-07-09 23:17:52,309 - core.json_ai_processor - INFO - JSON AI Processor connected successfully
+2025-07-09 23:17:52,310 - __main__ - ERROR - Critical error during startup: 'EnhancedGeminiService' object has no attribute '_initialize_special_commands'
+2025-07-09 23:17:52,317 - __main__ - ERROR - Traceback (most recent call last):
+  File "d:\videos\ai_code_editor\ai_code_editor\enhanced_main.py", line 135, in main
+    gemini_service = EnhancedGeminiService(config)
+  File "d:\videos\ai_code_editor\ai_code_editor\core\enhanced_gemini_service.py", line 969, in __init__
+    self.special_commands = self._initialize_special_commands()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EnhancedGeminiService' object has no attribute '_initialize_special_commands'
+
+2025-07-09 23:47:00,704 - core.app_config - INFO - Configuration initialized. App data directory: C:/Users/ALSKHRA PC/AppData/Roaming/AI Code Editor Pro Team/AI Code Editor Pro\AI Waheeb Pro
+2025-07-09 23:47:00,707 - core.json_ai_processor - INFO - JSON AI Processor connected successfully
+2025-07-09 23:47:00,707 - __main__ - ERROR - Critical error during startup: 'EnhancedGeminiService' object has no attribute '_initialize_special_commands'
+2025-07-09 23:47:00,716 - __main__ - ERROR - Traceback (most recent call last):
+  File "d:\videos\ai_code_editor\ai_code_editor\enhanced_main.py", line 135, in main
+    gemini_service = EnhancedGeminiService(config)
+  File "d:\videos\ai_code_editor\ai_code_editor\core\enhanced_gemini_service.py", line 969, in __init__
+    self.special_commands = self._initialize_special_commands()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EnhancedGeminiService' object has no attribute '_initialize_special_commands'
+
+2025-07-09 23:54:31,419 - core.app_config - INFO - Configuration initialized. App data directory: C:/Users/ALSKHRA PC/AppData/Roaming/AI Code Editor Pro Team/AI Code Editor Pro\AI Waheeb Pro
+2025-07-09 23:54:31,423 - core.json_ai_processor - INFO - JSON AI Processor connected successfully
+2025-07-09 23:54:31,424 - core.enhanced_gemini_service - INFO - Enhanced Gemini service initialized
+2025-07-09 23:54:31,426 - __main__ - ERROR - Critical error during startup: EnhancedMainWindow.__init__() takes 1 positional argument but 3 were given
+2025-07-09 23:54:31,428 - __main__ - ERROR - Traceback (most recent call last):
+  File "d:\videos\ai_code_editor\ai_code_editor\enhanced_main.py", line 139, in main
+    main_window = EnhancedMainWindow(config, gemini_service)
+TypeError: EnhancedMainWindow.__init__() takes 1 positional argument but 3 were given
+
+2025-07-09 23:55:05,407 - core.enhanced_gemini_service - INFO - Gemini AI connection successful
+2025-07-09 23:55:32,231 - core.enhanced_gemini_service - INFO - Gemini AI connection successful
+2025-07-10 16:12:11,536 - core.app_config - INFO - Configuration initialized. App data directory: C:/Users/ALSKHRA PC/AppData/Roaming/AI Code Editor Pro Team/AI Code Editor Pro\AI Waheeb Pro
+2025-07-10 16:12:11,543 - core.json_ai_processor - INFO - JSON AI Processor connected successfully
+2025-07-10 16:12:11,544 - core.enhanced_gemini_service - INFO - Enhanced Gemini service initialized
+2025-07-10 16:12:11,547 - __main__ - ERROR - Critical error during startup: EnhancedMainWindow.__init__() takes 1 positional argument but 3 were given
+2025-07-10 16:12:11,549 - __main__ - ERROR - Traceback (most recent call last):
+  File "d:\videos\ai_code_editor\ai_code_editor\enhanced_main.py", line 139, in main
+    main_window = EnhancedMainWindow(config, gemini_service)
+TypeError: EnhancedMainWindow.__init__() takes 1 positional argument but 3 were given
+
