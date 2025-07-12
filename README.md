@@ -47,11 +47,9 @@ Welcome to **AI Waheeb Pro**, an advanced Integrated Development Environment (ID
 
 1.  **Clone the Repository:**
 
-
-
 ```bash
 git clone https://github.com/waheeb71/AI-Waheeb-Pro.git
-cd AI-Waheeb-Pro```
+cd AI-Waheeb-Pro
 
 2.  **Create a Virtual Environment:**
 
