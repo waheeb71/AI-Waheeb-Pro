@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Collapsible Widget for AI Code Editor
-ويدجت قابل للطي لمحرر الأكواد الذكي
-"""
+
 
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QFrame, 
@@ -15,8 +12,8 @@ from PyQt6.QtGui import QFont, QIcon, QPainter, QPen, QColor
 class CollapsibleWidget(QWidget):
     """Widget قابل للطي مع تأثيرات بصرية جميلة"""
     
-    # إشارات
-    toggled = pyqtSignal(bool)  # عند تغيير حالة الطي
+ 
+    toggled = pyqtSignal(bool) 
     
     def __init__(self, title: str, content_widget: QWidget, parent=None):
         super().__init__(parent)
@@ -202,9 +199,9 @@ class CollapsibleWidget(QWidget):
             
         self.is_collapsed = False
         
-        # الحصول على الارتفاع المطلوب
-        self.content_frame.setMaximumHeight(16777215)  # إزالة القيد المؤقت
-        target_height = self.content_widget.sizeHint().height() + 16  # مع الهوامش
+      
+        self.content_frame.setMaximumHeight(16777215) 
+        target_height = self.content_widget.sizeHint().height() + 16  
         
         # بدء الرسوم المتحركة
         self.size_animation.setStartValue(0)

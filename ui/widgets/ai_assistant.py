@@ -341,18 +341,17 @@ class AIAssistantWidget(QWidget):
         else:
             # Store the full AI response
             self.full_ai_responses.append(full_content)
-            response_index = len(self.full_ai_responses) - 1 # Get the index for the current response
+            response_index = len(self.full_ai_responses) - 1 
 
-            # Truncate message for display in the small window if it's too long
+            #
             display_message = message_snippet
             if len(message_snippet) > 150: # Adjust threshold as needed
                 display_message = message_snippet[:150] + "..."
 
-            # Add "Enlarge" button
-            # Use a simple HTML anchor with a custom scheme and host to signal the enlarge action
+            
             enlarge_button_html = f"""
             <a href="pyqt_signal://enlargeResponse/{response_index}" style="color: #60A5FA; text-decoration: underline; font-size: 10px; margin-left: 5px;">[تكبير]</a>
-            """ if len(message_snippet) > 150 else "" # Only show enlarge if truncated
+            """ if len(message_snippet) > 150 else "" 
 
             formatted_message = f"""
 <div style="margin: 8px 0; padding: 10px 12px; background-color: #374151; border-radius: 12px; color: #F9FAFB; max-width: 90%; float: left; clear: both;">
@@ -406,12 +405,12 @@ class AIAssistantWidget(QWidget):
     
     def on_progress(self, message: str):
         """Handle progress update"""
-        self.status_label.setText(message + "...") # Add ellipses to indicate ongoing progress
+        self.status_label.setText(message + "...") 
     
     def clear_chat(self):
         """Clear chat area"""
         self.chat_area.clear()
-        self.full_ai_responses = [] # Clear stored responses too
+        self.full_ai_responses = [] 
         self.status_label.setText("تم مسح المحادثة ✅")
     
     def set_context(self, code: str, file_path: str = None):
@@ -421,13 +420,13 @@ class AIAssistantWidget(QWidget):
             context_message += f"الملف: {file_path}\n"
         context_message += f"الكود:\n```python\n{code}\n```"
         
-        # This would be sent to the AI service as context
+      
         if self.gemini_service:
             self.gemini_service.set_context(code, file_path)
     
     def get_suggestions(self, code: str) -> list:
         """Get AI suggestions for code"""
-        # This would return suggestions from the AI
+       
         suggestions = [
             "إضافة معالجة للأخطاء",
             "تحسين أسماء المتغيرات",
@@ -436,7 +435,7 @@ class AIAssistantWidget(QWidget):
         ]
         return suggestions
 
-# Example usage (for testing purposes)
+
 if __name__ == '__main__':
     import sys
     from PyQt6.QtCore import QTimer
@@ -479,7 +478,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     app.setApplicationName("AI Assistant Demo")
 
-    # Set a dark theme for the QApplication to better match the widget's style
+  
     app.setStyleSheet("""
         QWidget {
             background-color: #020617; /* Dark background for the main window */
@@ -502,7 +501,7 @@ if __name__ == '__main__':
     gemini_mock = MockGeminiService()
     assistant_widget = AIAssistantWidget(gemini_mock)
     assistant_widget.setWindowTitle("مساعد الذكاء الاصطناعي التجريبي")
-    assistant_widget.setMinimumWidth(350) # Set a reasonable minimum width
+    assistant_widget.setMinimumWidth(350) 
     assistant_widget.show()
 
     sys.exit(app.exec())
