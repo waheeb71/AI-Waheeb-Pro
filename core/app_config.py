@@ -28,13 +28,10 @@ class AppConfig:
         self.app_data_dir = self._get_app_data_dir()
         self.ensure_directories()
         
-        # لاحظ أن self.config_file_path و self._config_data_json
-        # تستخدم الآن بشكل أساسي للتعامل مع recent_files و recent_folders
-        # لأن QSettings قد لا تكون مثالية لتخزين القوائم الكبيرة.
-        # أما الإعدادات الفردية الأخرى فستعتمد على QSettings.
+      
         self.config_file_path = os.path.join(self.app_data_dir, 'config.json')
-        self._config_data_json = {} # تم تغيير الاسم لتوضيح أنه لإعدادات JSON فقط
-        self.load_json_config() # تحميل إعدادات JSON
+        self._config_data_json = {} 
+        self.load_json_config() 
 
         # Default configuration values
         self.defaults = {
@@ -189,14 +186,14 @@ class AppConfig:
         """Set Gemini API key"""
         self.set('ai.api_key', api_key)
     
-    def get_recent_files(self) -> List[str]: # تم تغيير النوع إلى List
+    def get_recent_files(self) -> List[str]:
         """Get recent files list (from JSON config)"""
         recent = self._config_data_json.get('files', {}).get('recent_files', [])
-        return [f for f in recent if os.path.exists(f)] if isinstance(recent, list) else [] # فلترة الملفات غير الموجودة
+        return [f for f in recent if os.path.exists(f)] if isinstance(recent, list) else [] 
 
     def add_recent_file(self, file_path: str):
         """Add file to recent files (and save to JSON config)"""
-        recent = self.get_recent_files() # استخدم الدالة الحالية للحصول على القائمة المفلتَرة
+        recent = self.get_recent_files() 
         
         # Remove if already exists
         if file_path in recent:
@@ -215,10 +212,10 @@ class AppConfig:
         self._config_data_json['files']['recent_files'] = recent
         self.save_json_config()
     
-    def get_recent_folders(self) -> List[str]: # تم تغيير النوع إلى List
+    def get_recent_folders(self) -> List[str]:
         """Get recent folders list (from JSON config)"""
         recent = self._config_data_json.get('files', {}).get('recent_folders', [])
-        return [f for f in recent if os.path.isdir(f)] if isinstance(recent, list) else [] # فلترة المجلدات غير الموجودة
+        return [f for f in recent if os.path.isdir(f)] if isinstance(recent, list) else [] 
     
     def add_recent_folder(self, folder_path: str):
         """Add folder to recent folders (and save to JSON config, also update last_opened_folder)"""
@@ -232,7 +229,7 @@ class AppConfig:
         recent.insert(0, folder_path)
         
         # Limit to max recent folders
-        max_folders = self.get('files.max_recent_files', 10) # ربما يجب أن تكون max_recent_folders
+        max_folders = self.get('files.max_recent_files', 10) 
         recent = recent[:max_folders]
         
         # تحديث في قاموس JSON وحفظه
@@ -242,13 +239,12 @@ class AppConfig:
         self.save_json_config()
         
         # *** أضف هذا السطر لتعيين آخر مجلد مفتوح ***
-        self.set_last_opened_folder(folder_path) # تحديث QSettings أيضاً
+        self.set_last_opened_folder(folder_path)
 
     # *** أضف الدوال الجديدة هنا ***
     def get_last_opened_folder(self) -> Optional[str]:
         """Retrieves the path of the last opened folder."""
-        # سيتم البحث عن 'files.last_opened_folder' في QSettings أولاً
-        # وإذا لم يتم العثور عليها، فسيتم استخدام القيمة الافتراضية من قاموس defaults
+   
         folder = self.get('files.last_opened_folder', None)
         
         # التحقق مما إذا كان المسار صالحًا كدليل
@@ -361,7 +357,7 @@ class AppConfig:
     def reset_to_defaults(self):
         """Reset all settings to defaults"""
         try:
-            self.settings.clear() # يمسح جميع الإعدادات المحفوظة في QSettings
+            self.settings.clear()
             self.settings.sync()
             
             # إعادة تهيئة _config_data_json
