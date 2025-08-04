@@ -9,11 +9,7 @@ from PyQt6.QtWidgets import QMessageBox
 logger = logging.getLogger(__name__)
 
 class UIFileOperations:
-    """
-    فئة مساعدة لعمليات الملفات المتعلقة بواجهة المستخدم.
-    تقوم بتنسيق الإجراءات بين الواجهة (MainWindow) ومدير الملفات (UnifiedFileManager)
-    وخدمة الذكاء الاصطناعي (JSONAIProcessor).
-    """
+  
     
     def __init__(self, main_window):
       
@@ -111,7 +107,7 @@ class UIFileOperations:
                
             else:
               
-                self.main_window.new_file() # هذا سيضيف تبويباً جديداً
+                self.main_window.new_file()
                 new_editor = self.main_window.get_current_editor()
                 if new_editor:
                     new_editor.setPlainText(code)
