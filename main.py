@@ -1,13 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Enhanced AI Waheeb Pro Desktop Application
-تطبيق AI Waheeb Pro المحسن لسطح المكتب
-A professional AI-powered coding assistant with improved voice control,
-file management, and direct Gemini AI integration.
-مساعد برمجة ذكي احترافي محسن مع التحكم الصوتي وإدارة الملفات
-ودمج مباشر مع Gemini AI.
-"""
+
 import sys
 import os
 import logging
@@ -80,7 +73,7 @@ class EnhancedAIWaheebProApp(QApplication):
     def _cleanup_threads(self):
         """دالة مساعدة لإدارة إغلاق الخيوط."""
         logger.info("EnhancedAIWaheebProApp: Application is about to quit. Initiating thread cleanup.")
-        # استدعاء دالة الإغلاق في خدمة Gemini
+      
         if self.gemini_service:
             self.gemini_service.shutdown()
         
