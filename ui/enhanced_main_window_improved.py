@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Enhanced Main Window for AI Waheeb Pro Desktop Application
-النافذة الرئيسية المحسنة لتطبيق AI Waheeb Pro
-"""
+
 
 from multiprocessing import Process
 import os
@@ -103,19 +100,19 @@ class EnhancedMainWindow(QMainWindow):
           self.start_services()
           self.apply_theme()
         
-          last_folder = self.config.get_recent_folders() # افترض أن لديك دالة كهذه في config
+          last_folder = self.config.get_recent_folders() 
           if last_folder:
-            last_folder_path = last_folder[0] # خذ آخر مجلد تم فتحه
+            last_folder_path = last_folder[0] 
             if os.path.isdir(last_folder_path):
                 logger.info(f"EnhancedMainWindow: Loading last opened folder: {last_folder_path}")
-                # استدعاء الدالة مباشرة عبر مدير الملفات لتشغيل الإشارة
+             
                 self.file_manager.open_folder(last_folder_path)
           logger.info("EnhancedMainWindow: Main window initialized successfully.")
           
         except Exception as e:
              logger.critical(f"Unhandled exception during EnhancedMainWindow initialization: {e}", exc_info=True)
              QMessageBox.critical(self, "خطأ فادح", f"حدث خطأ غير متوقع أثناء بدء التشغيل: {e}\nالرجاء مراجعة السجلات.")
-             sys.exit(1) # إغلاق التطبيق بعد عرض الخطأ
+             sys.exit(1)
     def create_dropdown_panel(self):
         """Create dropdown panel for voice control and AI assistant"""
         self.dropdown_panel = DropdownPanel(self)
