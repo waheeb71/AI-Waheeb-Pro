@@ -95,10 +95,14 @@ Welcome to **AI Waheeb Pro**, an advanced Integrated Development Environment (ID
 
 For questions or support, please reach out to me via:
 
--   **Telegram:** [@SyberSc71](https://t.me/SyberSc71)
--   **Telegram:** [@WAT4F](https://t.me/WAT4F)
--   **GitHub:** [waheeb71](https://github.com/waheeb71)
--   **YouTube Channel:** [Cyber Code](https://www.youtube.com/@cyber_code1) -   **X (formerly Twitter) Account:** [@SyberSc](https://x.com/SyberSc)
+- Telegram: [@SyberSc71](https://t.me/SyberSc71)
+- Telegram: [@WAT4F](https://t.me/WAT4F)
+- GitHub: [waheeb71](https://github.com/waheeb71)
+- GitHub2: [cyberlangdev](https://github.com/cyberlangdev)
+- **Location:** I am from Yemen, Taiz.
+- **YouTube Channel:** [Cyber Code](https://www.youtube.com/@cyber_code1)
+- **X (formerly Twitter):** [@wa__cys](https://x.com/wa__cys)
+
 
 ---
 
