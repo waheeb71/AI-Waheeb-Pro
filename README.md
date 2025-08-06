@@ -104,8 +104,6 @@ For questions or support, please reach out to me via:
 - **X (formerly Twitter):** [@wa__cys](https://x.com/wa__cys)
 
 
----
 
-**Location:** Taiz, Yemen.
 
 ---
