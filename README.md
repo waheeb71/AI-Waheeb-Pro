@@ -107,3 +107,6 @@ For questions or support, please reach out to me via:
 
 
 ---
+## 📄 License
+
+This project is released into the public domain under [The Unlicense](LICENSE).
